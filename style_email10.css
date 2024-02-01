@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+SVGiSVGi<path class="cls-1" d="m589.82,496.66c-1.69,0-3.39,0-5.08,0-.74,0-.75,0-.75-.76,0-2.63,0-5.26,0-7.9,0-.62-.01-.63-.62-.63-2.26,0-4.51,0-6.77,0-.08,0-.16,0-.24,0-.32-.02-.43.15-.41.44.01.19,0,.38,0,.56,0,2.55,0,5.1,0,7.65,0,.62-.01.63-.63.63-1.34,0-2.69.01-4.03,0-.41,0-.56.12-.56.55.02,1.56,0,3.11,0,4.67,0,.7,0,.7.7.71.24,0,.48,0,.73,0,1.07,0,2.15.02,3.22,0,.42,0,.6.13.55.55-.02.16,0,.32,0,.48v9.83c0,3.01,0,6.02,0,9.02,0,.67.02,1.34.1,2.01.39,3.17,1.97,5.4,5.07,6.41,2.68.88,5.44.88,8.21.62.38-.04.48-.25.48-.6-.01-1.61,0-3.22,0-4.83,0-.53-.02-.55-.55-.5-.94.08-1.88.09-2.8-.15-1.1-.28-1.83-.96-2.17-2.06-.21-.67-.29-1.36-.29-2.07,0-5.99,0-11.98,0-17.97,0-.74,0-.75.76-.75,1.69,0,3.39,0,5.08,0,.6,0,.61-.01.62-.63,0-1.56,0-3.11,0-4.67,0-.61-.01-.62-.63-.62Z"/>SVGi2SVGsSVGe2SVGregSVGregsubH}
+
+body{
+	position: absolute;
+	height: 100vh;
+	background: #D8E5EE;
+}
+
+body::-webkit-scrollbar {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+/* hide scrollbar but allow scrolling */
+#scrollDIV::-webkit-scrollbar {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+/* hide scrollbar but allow scrolling */
+#content::-webkit-scrollbar {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+h1{
+	font-size: 2em;
+	text-align: center;
+	line-height: 1.5em;
+	padding: 0 25px;
+	color: #05004d;
+}
+
+h2{
+	font-size: 2.1em;
+	text-align: center;
+	line-height: 1.1em;
+	padding: 0 25px;
+	color: #05004d;
+	letter-spacing: 3px;
+}
+
+h3{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+	padding: 0 25px;
+	color: #05004d;
+	letter-spacing: 3px;
+}
+
+h4{
+	font-size: 1.3em;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 0 15px;
+	font-weight: 600;
+	letter-spacing:1.2px;
+	color: #05004d;
+}
+
+p{
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-weight: 500;
+	text-align: left;
+	padding: 5px 25px;
+	color: #05004d;
+	letter-spacing: .5px;
+}
+
+.envelopeFront{
+  height: auto;
+  position: fixed;
+  top: 81%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  pointer-events: none;
+}	
+
+.envelopeBack{
+  height: auto;
+  position: fixed;
+  top: 81%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  pointer-events: none;
+}
+
+/* fixed - HOLD SCROLL DIV IN PLACE */	
+.fixed{
+  height: 150vh;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 44.5vw;
+  background: #BC8FFF;
+}
+
+#scrollDIV{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 300px;
+  overflow: auto;
+  cursor: pointer;
+  float: left;
+  background: #FAFF6A;
+}
+
+#content{
+ top: 100vh;
+ left: 0;
+ width: 100%;
+ height: 400vh;
+ position: absolute;
+ border-radius: 20px;
+ float: left;
+ background: #FF81FE
+}
